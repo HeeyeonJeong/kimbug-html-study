@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>music player</title>
+    <link rel="stylesheet" href="./41강.css" />
+  </head>
+  <body>
+    <ol class="music-player">
+      <li class="music-play-item">
+        <img
+          src="https://m.media-amazon.com/images/I/814Rp76DidL._SS500_.jpg"
+          alt="올라가"
+          lang="ko"
+          class="music-album-cover"
+        />
+        <div class="music-info">
+          <div class="music-info-detail">
+            <h1>러브 엑스 마키나 Love Ex Machina</h1>
+            <strong>MLSL (밀레니엄 살롱)</strong>
+          </div>
+          <span class="music-playtime">
+            <span class="sr-only">duration</span>
+            04:09
+          </span>
+        </div>
+        <audio src="./41강_assets/music-1.mp3"></audio>
+      </li>
+      <li class="music-play-item">
+        <img
+          src="https://m.media-amazon.com/images/I/814Rp76DidL._SS500_.jpg"
+          alt="올라가"
+          lang="ko"
+          class="music-album-cover"
+        />
+        <div class="music-info">
+          <div class="music-info-detail">
+            <h1>올라가</h1>
+            <strong>권선홍</strong>
+          </div>
+          <span class="music-playtime">
+            <span class="sr-only">duration</span>
+            03:33
+          </span>
+        </div>
+        <audio src="./41강_assets/music-1.mp3"></audio>
+      </li>
+    </ol>
+    <script src="./41강.js"></script>
+  </body>
+</html>
+
+<!--music play list 니까 list 사용함(순서중요-ul사용-->
+<!--js로 코딩해놔서 audio에 controls 생략하고 작성함,
+원래는 controls 넣어야함-->

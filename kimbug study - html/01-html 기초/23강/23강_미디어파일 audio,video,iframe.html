@@ -1,0 +1,33 @@
+<!--오디오 파일 하나만 올릴때-->
+<audio src="./23강 미디어파일/kimbug.mp3" controls></audio>
+
+<!--오디오 파일 여러개로 해당 브라우저에 맞는 형식 사용할때-->
+<audio controls>
+  <source src="./23강 미디어파일/kimbug.mp3" type="audio/mpeg" />
+  <source src="23강 미디어파일/kimbug.wav" type="audio/wav" />
+  <p>해당 브라우저는 ~~미디어파일을 지원하지 않습니다.</p>
+</audio>
+
+<!--audio,video 사용법 동일-->
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/lAIaTZz3DGk"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+<br />
+
+<!--18강 form_select,option-->
+<form action="" method:GET>
+  <label for="라벨">라벨링</label>
+  <select name="skills" id="라벨">
+    <option value="html">html</option>
+    <option value="css">css</option>
+    <option value="js">js</option>
+  </select>
+  <button type="submit">submit</button>
+</form>
